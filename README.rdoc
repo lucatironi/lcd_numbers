@@ -1,0 +1,26 @@
+= LCD Numbers (RubyQuiz #14)
+
+A TDD implementation of a command line tool to print LCD numbers with RSpec & Ruby.
+
+Instructions provided by http://rubyquiz.com/quiz14.html
+
+== USAGE
+  ruby lcd.rb 012345
+
+will print
+   --        --   --        -- 
+  |  |    |    |    | |  | |   
+  |  |    |    |    | |  | |   
+             --   --   --   -- 
+  |  |    | |       |    |    |
+  |  |    | |       |    |    |
+   --        --   --        -- 
+
+   ruby lcd.rb 6789 -s 1
+
+will print
+   -   -   -   - 
+  |     | | | | |
+   -       -   - 
+  | |   | | |   |
+   -       -   - 

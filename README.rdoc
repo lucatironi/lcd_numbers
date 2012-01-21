@@ -16,6 +16,8 @@ will print
   |  |    | |       |    |    |
    --        --   --        -- 
 
+You can specify a size parameter with "-s"
+
    ruby lcd.rb 6789 -s 1
 
 will print
